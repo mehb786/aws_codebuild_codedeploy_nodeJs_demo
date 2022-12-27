@@ -6,8 +6,10 @@
   "directories": {
     "doc": "docs"
   },
+ 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner.bat"
   },
   "repository": {
     "type": "git",
